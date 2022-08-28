@@ -29,7 +29,7 @@ jobs:
         owner: 'Brayman30'
         repository: 'Tremendously-Optimized'
     - name: Acesses Cloned Repo
-      run: cd Tremendously-Optimized/packwiz
+      run: cd Tremendously-Optimized/packwiz && ls
     - name: Generate Modpack File
       run: chmod +x packwiz && ./packwiz mr export
     - name: Move Modpack File 
