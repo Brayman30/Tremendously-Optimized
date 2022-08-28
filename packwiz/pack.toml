@@ -1,0 +1,16 @@
+name = "Tremendously Optimized"
+author = "Brayman30"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e0b8bd591cdea8a4c2c65ad626442ff8a29eb5c02be66a603f7fae63cf77e4fb"
+
+[versions]
+fabric = "0.14.9"
+minecraft = "1.19.2"
+
+[options]
+acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
