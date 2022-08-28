@@ -28,12 +28,11 @@ jobs:
       with:
         owner: 'Brayman30'
         repository: 'Tremendously-Optimized'
-    - name: Acesses Cloned Repo
-      run: cd Tremendously-Optimized/packwiz && ls
-    - name: Generate Modpack File
-      run: pwd && ls && chmod +x packwiz && ./packwiz mr export
-    - name: Move Modpack File 
-      run: mv *.mrpack ../Versions/
+    - name: Make the Export File
+      run: |
+        cd Tremendously-Optimized/packwiz
+        ./packwiz mr export
+        mv *.mrpack ../Versions/
     - name: Push Repo
       uses: actions/checkout@v2
       with:
