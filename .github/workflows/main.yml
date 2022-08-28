@@ -31,7 +31,7 @@ jobs:
     - name: Acesses Cloned Repo
       run: cd Tremendously-Optimized/packwiz && ls
     - name: Generate Modpack File
-      run: chmod +x packwiz && ./packwiz mr export
+      run: pwd && ls && chmod +x packwiz && ./packwiz mr export
     - name: Move Modpack File 
       run: mv *.mrpack ../Versions/
     - name: Push Repo
