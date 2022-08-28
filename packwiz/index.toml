@@ -1,12 +1,116 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "25f3840370625ab05ae1581fa853fa100a532384f1d99cfa6c8ed70e9c53e8fd"
+
+[[files]]
 file = "config/isxander-main-menu-credits.json"
 hash = "7e62501e16c427a498f44e6282bba72e9c3fc7b0a1f18956a57041bd16f01164"
 
 [[files]]
 file = "curseforge-packlist"
 hash = "d3c05f879a496270118100241e7708a71db930587665ece388d7f429ef536926"
+
+[[files]]
+file = "docs/packwiz.md"
+hash = "9e9c87be3faac8f8d62de3f701b735ee9ba2df0323493d657bb78ea13ffce1cf"
+
+[[files]]
+file = "docs/packwiz_completion.md"
+hash = "95fabc78a9f49b367327197c12f42aca7d5c5aba0d1d9f82ca9425c1239d3379"
+
+[[files]]
+file = "docs/packwiz_completion_bash.md"
+hash = "58a4e87c4fbef0c2bfdf3fc26c1c90355c1f7eafaab6b3e5f95e0eb5e400e59f"
+
+[[files]]
+file = "docs/packwiz_completion_fish.md"
+hash = "70b00aa0d1b62df718d73991d893e96aebeb97bdda4b69535a5b89e6e684a259"
+
+[[files]]
+file = "docs/packwiz_completion_powershell.md"
+hash = "3d118ae0251580880f9a4d5ec8c5251a9f5869d7f63f0c1f2aefa33feabbdd24"
+
+[[files]]
+file = "docs/packwiz_completion_zsh.md"
+hash = "7f820416c069a327369e629f82bc759cd6d811841e9c9ec5085793dc72e8b5bf"
+
+[[files]]
+file = "docs/packwiz_curseforge.md"
+hash = "e7b09820dd389bd9db4ecc440b1cc3dc8f3783f33b9e1fed7cd696f39244aa3a"
+
+[[files]]
+file = "docs/packwiz_curseforge_detect.md"
+hash = "9bf914488b48b7e039b0fced1bcdf09daaac8161fe176b0ca327b5dccbe61a2d"
+
+[[files]]
+file = "docs/packwiz_curseforge_export.md"
+hash = "25a0a16a30585f41ec096d9e4016a5522a1aed56b3775cdf602e4058e8a1571a"
+
+[[files]]
+file = "docs/packwiz_curseforge_import.md"
+hash = "380c80e5d80c492c8902ac37d15f1ece02342eb43de898c745c8762fc1e85430"
+
+[[files]]
+file = "docs/packwiz_curseforge_install.md"
+hash = "8672c8ec6b2a791740140a56ed6b872ee2526fa4c0a7d09117fafb8f6d559610"
+
+[[files]]
+file = "docs/packwiz_curseforge_open.md"
+hash = "edf3e499d83bc37e3055d3b7fa73c6706dc9981101121a234b5705ef4a9a1b23"
+
+[[files]]
+file = "docs/packwiz_init.md"
+hash = "e5f03dee12f65ac9bd9feeaf2a52b3b7bb16e18c217be62bf0a6a85218c2ff3c"
+
+[[files]]
+file = "docs/packwiz_list.md"
+hash = "9c3d63f69d5ee72aba3068f57363ace97aff2ba7471b92d3f3fadc90f861def9"
+
+[[files]]
+file = "docs/packwiz_modrinth.md"
+hash = "63c46a1ae452652da496cfda4c2c010e959ad434a0f6708dfdc639f75ec318c5"
+
+[[files]]
+file = "docs/packwiz_modrinth_export.md"
+hash = "ca8f7f7b5638d432ff75b30c47ff2fea57fa34d2b41a9b4caa5b39e77c42c5e4"
+
+[[files]]
+file = "docs/packwiz_modrinth_install.md"
+hash = "fe1b5ded07d78d708962292bed9111daf1a6e7ebfbe6b620c30c1ae30d237147"
+
+[[files]]
+file = "docs/packwiz_refresh.md"
+hash = "66ae04d6797773d4161b9d38752ee0783a4b7e26b4e5bad51d854aff8752cab3"
+
+[[files]]
+file = "docs/packwiz_remove.md"
+hash = "5b7e1ccaa064a9b7cd188259700793d884b545fa6bc040f4876f290437e4a5f7"
+
+[[files]]
+file = "docs/packwiz_serve.md"
+hash = "a03fecd205d3b13cce8c161547dbeec326c01f077610af020bc7953e21cfefa2"
+
+[[files]]
+file = "docs/packwiz_update.md"
+hash = "f757e81bf65371a0e9c7cab7f04fabd7736d3c5735cdd025e345d4d8720b2bbc"
+
+[[files]]
+file = "docs/packwiz_url.md"
+hash = "ee0a8c4535f3b99eca737b2ff7f054b2f3cfa3cc7d7beac649bc3178aa466e3a"
+
+[[files]]
+file = "docs/packwiz_url_add.md"
+hash = "81c6b15dd8f66d4ceb6b5a401a9560c15d7353ade227418faf85a4c43ed89555"
+
+[[files]]
+file = "docs/packwiz_utils.md"
+hash = "a04e5f504e74de46ac0a2cca82c03b31006107744377d6821346931a733a1023"
+
+[[files]]
+file = "docs/packwiz_utils_markdown.md"
+hash = "00df6e99b43988ab61e51591adfab4ff01deabcf2e3e5e79c69845f7dffa1d48"
 
 [[files]]
 file = "install-script.sh"
