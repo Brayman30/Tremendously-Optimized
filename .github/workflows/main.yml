@@ -31,6 +31,7 @@ jobs:
     - name: Make the Export File
       run: |
         cd Tremendously-Optimized/packwiz
+        chmod +x packwiz
         ./packwiz mr export
         mv *.mrpack ../Versions/
     - name: Push Repo
