@@ -22,23 +22,17 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps: 
-    
     - name: Clone Repo
-      uses: GuillaumeFalourd/clone-github-repo-action@v2
+      uses: actions/checkout@v2
       with:
-        owner: 'Brayman30'
-        repository: 'Tremendously-Optimized'
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Make the Export File
       run: |
         cd Tremendously-Optimized/packwiz
         chmod +x packwiz
         ./packwiz mr export
         mv *.mrpack ../Versions/
-    - name: Push Repo
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
