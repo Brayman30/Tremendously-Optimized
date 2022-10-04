@@ -1,12 +1,12 @@
 name = "Tremendously Optimized"
 author = "Brayman30"
-version = "0.1.1"
+version = "0.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "bb409e6842f18a754127fd79d50ff3f7769e296be11056ef0d7728bc38b1c404"
+hash = "c8f416b6cf05ed3b56f319bf8c76594320ee3ba203f731096b9e446f0bbaece3"
 
 [versions]
 fabric = "0.14.9"

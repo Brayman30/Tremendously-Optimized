@@ -1,13 +1,13 @@
 name = "Iris Shaders"
-filename = "iris-mc1.19.2-1.2.7.jar"
+filename = "iris-mc1.19.2-1.3.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/YL57xq9U/versions/oubLAbu3/iris-mc1.19.2-1.2.7.jar"
+url = "https://cdn.modrinth.com/data/YL57xq9U/versions/r8IxC3aO/iris-mc1.19.2-1.3.1.jar"
 hash-format = "sha1"
-hash = "bb909f8316b1449503c13cb4e908d1c4d81398fb"
+hash = "d48f9bbc13989367629b85a785d0ff227b63dc5e"
 
 [update]
 [update.modrinth]
 mod-id = "YL57xq9U"
-version = "oubLAbu3"
+version = "r8IxC3aO"
